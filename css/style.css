@@ -319,6 +319,40 @@ section { padding: 6rem 2rem; }
   letter-spacing: 0.05em;
 }
 
+/* ── STREAMING ── */
+#streaming { background: var(--warm-white); }
+
+.streaming-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.streaming-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid var(--border);
+  background: var(--white);
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  color: var(--brown);
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.streaming-link:hover {
+  border-color: var(--tan);
+  background: var(--cream);
+}
+
+.streaming-link img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
 /* ── ALBUMS ── */
 #albums { background: var(--cream); }
 
